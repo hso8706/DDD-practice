@@ -2,6 +2,7 @@ package com.myshop.common.model;
 
 import java.util.Objects;
 
+//돈 도메인; 밸류 타입, 불변
 public class Money {
 
     private int value;

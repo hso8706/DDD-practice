@@ -9,6 +9,7 @@ import javax.persistence.Convert;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 
+//주문 항목 도메인
 @Embeddable
 public class OrderLine {
     @Embedded

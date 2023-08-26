@@ -3,6 +3,7 @@ package com.myshop.order.command.domain;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
+//받는 사람 정보 도메인; 밸류 타입
 @Embeddable
 public class Receiver {
     @Column(name = "receiver_name")

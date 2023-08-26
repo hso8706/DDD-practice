@@ -4,6 +4,7 @@ import com.myshop.common.model.Address;
 
 import javax.persistence.*;
 
+//배송지 정보 도메인; 밸류 타입
 @Embeddable
 public class ShippingInfo {
     @Embedded
